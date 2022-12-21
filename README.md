@@ -1,7 +1,7 @@
 # Bun Boilterplate
 
 - strict TypeScript
-- Eslint and Prettir
+- Eslint and Prettier
 - Dockerfile
 - serving static assets
 - serving HTML templates
