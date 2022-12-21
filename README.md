@@ -1,4 +1,4 @@
-# Bun Boilterplate
+# Bun Boilerplate
 
 - strict TypeScript
 - Eslint and Prettier
