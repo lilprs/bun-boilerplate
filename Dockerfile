@@ -1,6 +1,8 @@
-FROM alpine:3.17
+FROM debian:11.6-slim
 
-RUN curl -fsSL https://bun.sh/install | sh
+RUN apt-get update && apt-get install -y curl unzip
+
+RUN curl -fsSL https://bun.sh/install | bash && apt-get purge -y curl unzip && apt-get clean -y 
 
 ADD ./ /application/
 
