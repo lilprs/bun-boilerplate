@@ -9,7 +9,6 @@ if (!global_state.initialized) {
 }
 
 const handler = {
-  port: 3000,
   fetch(req: Request): Response {
     console.log(`${req.method} ${req.url}`)
     return handleHttpRequest(req)
